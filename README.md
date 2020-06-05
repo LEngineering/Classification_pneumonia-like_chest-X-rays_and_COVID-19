@@ -2,13 +2,12 @@
 
 Overview
 
-The model uses transfer learning using VGG16, Keras and TensorFlow to detect and predict the pneumonia cases and can predict the COVID-19 cases.
+The model uses transfer learning using VGG16, Keras and TensorFlow to detect and predict the pneumonia cases.
 
 ## Dataset
 
-As input it was used 240 chest X-ray images where: 120 labeled normal and 120 labeled with pneumonia to output the probability of each thoracic disease.
+As input it was used 240 chest X-ray images taken from [Kaggle](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) where 120 labeled normal and 120 labeled with pneumonia to output the probability of each thoracic disease.
 
-Source of the images: kaggle (https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 
 ## Prerequisites
 
