@@ -2,7 +2,7 @@
 
 Overview
 
-The model uses transfer learning using VGG16, Keras and TensorFlow to detect and predict the pneumonia cases.
+Transfer learning using VGG16, Keras and TensorFlow to detect and predict the pneumonia disease.
 
 ## Dataset
 
