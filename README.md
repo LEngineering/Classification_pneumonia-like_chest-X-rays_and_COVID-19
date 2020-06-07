@@ -1,4 +1,4 @@
-# VGG16-Chestimages_Detection
+# Classification of pneumonia-like images using transfer learning 
 Transfer learning using VGG16, Keras and TensorFlow to detect pneumonia-like X-ray images.
 
 ## Dataset
