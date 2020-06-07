@@ -12,10 +12,13 @@ We reserved 80% of the data for training (20% of 80% for validation) and 20% for
 <div align=center><img width="700" src="./images/trainval-test.PNG"/></div>
 
 For this network we used VGG16 and built new FC layers for our model:
-
-<div align=center><img width="700" src="./ix.PNG"/></div>
+<div align=center><img width="250" src="./images/Layers.PNG"/></div>
 
 ## Results 
+The tendency for training and validation loss is to drop to a close value to '0' whereas the trainin and validation accuracy is to approach to the value of '1'. As we can see our model is not overfitting despite the number of images we input and we obtained an accuracy of 95%.
+
+
+
 
 
 ## Prerequisites
