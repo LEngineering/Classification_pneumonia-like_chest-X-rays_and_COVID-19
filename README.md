@@ -1,5 +1,5 @@
-# VGG16-Detection-Prediction_chestimages
-Transfer learning using VGG16, Keras and TensorFlow to detect and predict the pneumonia disease.
+# VGG16-Chestimages_Detection
+Transfer learning using VGG16, Keras and TensorFlow to detect pneumonia-like X-ray images.
 
 ## Dataset
 
@@ -15,18 +15,18 @@ For this network we used VGG16 and built new FC layers for our model:
 <div align=center><img width="250" src="./images/Layers.PNG"/></div>
 
 ## Results 
-The tendency for training and validation loss is to drop to a close value to '0' whereas the trainin and validation accuracy is to approach to the value of '1'/ 100%. 
+The tendency for training and validation loss is to drop to a close value to '0' whereas the training and validation accuracy is to approach to the value of '1'/ 100%. 
 As we can see our model is not overfitting despite the number of images we input and we obtained an accuracy of 95%.
-<div align=center><img width="350" src="./images/acc_loss.png"/></div>
+<div align=center><img width="400" src="./images/acc_loss.png"/></div>
 
 To evaluate classifier output quality we also achieved a larger area under the curve (AUC=0.99):
-<div align=center><img width="350" src="./images/ROCcurve.png"/></div>
+<div align=center><img width="400" src="./images/ROCcurve.png"/></div>
 
-Also we can visualize the performance of the algorithm by computing the confusion matrix to evaluate the accuracy of the classification:
-<div align=center><img width="350" src="./images/confusion_matrix.png"/></div>
+We can also visualize the performance of the algorithm by computing the confusion matrix:
+<div align=center><img width="400" src="./images/confusion_matrix.png"/></div>
 We notice that the model doesn't detect any False Negative test result.
 
-The model was tested on COVID-19 X-ray images and the accuracy detection rate is 100%.
+The model "modelx-ray.h5" was tested on COVID-19 X-ray images and the accuracy detection rate is 100%.
 
 ## Prerequisites
 - Windows 10
