@@ -26,8 +26,6 @@ We can also visualize the performance of the algorithm by computing the confusio
 <div align=center><img width="400" src="./images/confusion_matrix.png"/></div>
 We notice that the model doesn't detect any False Negative test result.
 
-The model "modelx-ray.h5" was tested on COVID-19 X-ray images and the accuracy detection rate is 100%.
-
 ## Prerequisites
 - Windows 10
 - Python 3.7
