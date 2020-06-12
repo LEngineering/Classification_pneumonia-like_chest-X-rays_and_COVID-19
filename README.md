@@ -22,8 +22,20 @@ To evaluate classifier output quality we also achieved a larger area under the c
 <div align=center><img width="400" src="./images/ROCcurve.png"/></div>
 
 We can also visualize the performance of the algorithm by computing the confusion matrix:
+
 <div align=center><img width="400" src="./images/confusion_matrix.png"/></div>
+
 We notice that the model doesn't detect any False Negative test result.
+
+Using the model trained for normal-pneumonia dataset we tested other 20 COVID-19 chest X-ray images (taken from [radiopedia](https://radiopaedia.org/?lang=gb) with following results:
+
+AUC = 1.00
+<div align=center><img width="400" src="./images/RocCurve_Covid.png"/></div>
+Confusion Matrix for COVID-19 samples
+<div align=center><img width="400" src="./images/ConfMatrix_Covid.png"/></div>
+
+
+
 
 ## Prerequisites
 - Windows 10
